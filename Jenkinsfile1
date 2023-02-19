@@ -1,0 +1,15 @@
+pipeline{
+agentany
+  stages{
+    stage('checkout'){
+      steps{
+      git 'https://github.com/MAHESHASM/java-web-app-docker.git'
+           }
+                     }
+    
+    
+    
+    
+    
+  }
+}
